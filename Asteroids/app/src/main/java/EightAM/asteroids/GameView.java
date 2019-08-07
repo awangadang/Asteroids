@@ -25,7 +25,7 @@ class GameView extends SurfaceView implements Runnable {
     private Canvas canvas;
 
 
-    GameView(Context ctx, AttributeSet attrs) {
+    public GameView(Context ctx, AttributeSet attrs) {
         super(ctx, attrs);
         init();
     }
