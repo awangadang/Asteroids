@@ -61,6 +61,8 @@ class BombShip extends AbstractShip {
             paint.setColorFilter(
                     new PorterDuffColorFilter(Color.rgb(r.nextInt(256), 0, r.nextInt(256)),
                             PorterDuff.Mode.SRC_IN));
+        } else {
+            paint.setColorFilter(null);
         }
     }
 
