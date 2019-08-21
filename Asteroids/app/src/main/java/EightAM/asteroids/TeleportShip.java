@@ -94,6 +94,8 @@ public class TeleportShip extends AbstractShip {
                     new PorterDuffColorFilter(
                             Color.rgb(r.nextInt(256), r.nextInt(256), r.nextInt(256)),
                             PorterDuff.Mode.SRC_IN));
+        } else {
+            paint.setColorFilter(null);
         }
     }
 
